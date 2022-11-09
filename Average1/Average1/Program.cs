@@ -13,3 +13,6 @@ Tuple<string, int>[] tuples = {
     new Tuple<string,int>("Cindy",4),
 };
 Console.WriteLine(tuples.Average(c=>c.Item2));
+
+string[] c = { "Hello", "how", "are", "you" };
+Console.WriteLine(c.Average(c=>c.Length));
