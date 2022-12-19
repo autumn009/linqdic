@@ -2,7 +2,7 @@
 int[] targets = { 3, 5 };
 foreach (var item in targets)
 {
-    string msg = array.Contains(item) ? "います" : "いません";
+    string msg = array.Contains(item    ) ? "います" : "いません";
     Console.WriteLine($"{string.Join(',',array)}に{item}は含まれて{msg}");
 }
 
