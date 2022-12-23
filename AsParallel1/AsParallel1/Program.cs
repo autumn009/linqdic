@@ -1,4 +1,4 @@
-﻿int[] a = new int[1000000000];
+﻿int[] a = new int[2000000000];
 a[a.Length - 1] = 1;
 var start1 = DateTime.Now;
 var bySerial = a.Count(c => c == 1);
